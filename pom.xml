@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mycompany</groupId>
     <artifactId>jgitflowtest</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,7 +18,19 @@
                 <artifactId>jgitflow-maven-plugin</artifactId>
                 <version>1.0-m5.1</version>
                 <configuration>
-                    <!-- see goals wiki page for configuration options -->
+                    <pushFeatures>true</pushFeatures>
+                    <pushHotfixes>true</pushHotfixes>
+                    <pushReleases>true</pushReleases>
+                    <enableSshAgent>true</enableSshAgent>
+                    <noDeploy>true</noDeploy>
+                    <flowInitContext>
+                        <masterBranchName>master</masterBranchName>
+                        <developBranchName>development</developBranchName>
+                        <featureBranchPrefix>feature-</featureBranchPrefix>
+                        <releaseBranchPrefix>release-</releaseBranchPrefix>
+                        <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+                        <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
+                    </flowInitContext>
                 </configuration>
             </plugin>
         </plugins>
