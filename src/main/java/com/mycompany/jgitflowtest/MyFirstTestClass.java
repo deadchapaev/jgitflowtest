@@ -11,8 +11,7 @@ package com.mycompany.jgitflowtest;
  */
 public class MyFirstTestClass {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Feature is end");
+        System.out.println("Hello World!!"); //fix after test
     }
     
 }
