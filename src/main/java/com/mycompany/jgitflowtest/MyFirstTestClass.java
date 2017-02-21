@@ -11,6 +11,7 @@ package com.mycompany.jgitflowtest;
  */
 public class MyFirstTestClass {
     public static void main(String[] args) {
+        //доработки новой фичи
         System.out.println("Hello World!");
     }
     
