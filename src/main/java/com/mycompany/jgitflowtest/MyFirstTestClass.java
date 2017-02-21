@@ -6,7 +6,7 @@
 package com.mycompany.jgitflowtest;
 
 /**
- *
+ * Корректировка документации
  * @author chapaev
  */
 public class MyFirstTestClass {
