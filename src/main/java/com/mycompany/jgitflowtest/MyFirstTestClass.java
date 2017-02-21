@@ -17,3 +17,7 @@ public class MyFirstTestClass {
     }
     
 }
+
+class PrivateClass {
+    
+}
