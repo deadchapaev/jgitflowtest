@@ -22,6 +22,7 @@
                     <pushHotfixes>true</pushHotfixes>
                     <pushReleases>true</pushReleases>
                     <enableSshAgent>true</enableSshAgent>
+                    <noDeploy>true</noDeploy>
                     <flowInitContext>
                         <masterBranchName>master</masterBranchName>
                         <developBranchName>development</developBranchName>
