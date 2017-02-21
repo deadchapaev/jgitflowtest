@@ -11,9 +11,13 @@ package com.mycompany.jgitflowtest;
  */
 public class MyFirstTestClass {
     public static void main(String[] args) {
-        //доработки новой фичи
+        //доработки новой фичи окончена
         //доработка окончена
         System.out.println("Hello World!!"); //fix after test
     }
+    
+}
+
+class PrivateClass {
     
 }
